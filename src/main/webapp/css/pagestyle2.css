@@ -1,0 +1,317 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333
+}
+
+.box,
+.rightbox {
+    height: 100%;
+    border: 0
+}
+
+.box {
+    width: 100%;
+}
+
+.box,
+.title {
+    position: absolute
+}
+
+.title {
+    top: 36%;
+    left: 22%;
+    color: #fff;
+    word-spacing: 10px;
+    letter-spacing: 12px;
+    font-weight: 700;
+    font-size: 65px
+}
+
+.login {
+    top: 30%;
+    display: flex;
+    margin: 0 auto;
+    width: 85%;
+    width: 400px;
+    height: 30%;
+    min-height: 20px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .5);
+    border-right: 1px solid hsla(0, 0%, 100%, .5);
+    border-color: hsla(0, 0%, 100%, .5) hsla(0, 0%, 100%, .2) hsla(0, 0%, 100%, .2) hsla(0, 0%, 100%, .5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background: hsla(0, 0%, 85.9%, .2);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .05);
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px)
+}
+
+.pane {
+    position: relative;
+    top: 10%;
+    display: flex;
+    margin: 0 auto;
+    width: 35%;
+    height: 55%;
+    min-height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form,
+.login {
+    position: relative
+}
+
+.form {
+    top: 15px;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px
+}
+
+.form h2 {
+    position: relative;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer
+}
+
+.form h3 {
+    margin-bottom: -5px;
+    font-size: 18px
+}
+
+.form h3,
+.form h4 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    font-weight: 400;
+    line-height: 1;
+    cursor: pointer
+}
+
+.form h4 {
+    margin-bottom: 15px;
+    font-size: 16px
+}
+
+.form a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-weight: 600;
+    cursor: pointer
+}
+
+.form a:before {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fff;
+    content: "";
+    transition: .5s
+}
+
+.form a:hover:before {
+    width: 53px
+}
+
+.form .inputBox {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.form .inputBox input {
+    padding: 10px 20px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid hsla(0, 0%, 100%, .5);
+    border-top: none;
+    border-left: none;
+    border-color: hsla(0, 0%, 100%, .5) hsla(0, 0%, 100%, .2) hsla(0, 0%, 100%, .2) hsla(0, 0%, 100%, .5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    background: hsla(0, 0%, 100%, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 16px
+}
+
+.form .inputBox input::-webkit-input-placeholder {
+    color: rgb(0, 0, 0)
+}
+
+.form .inputBox input::-moz-placeholder {
+    color: rgb(0, 0, 0)
+}
+
+.form .inputBox input:-ms-input-placeholder {
+    color: rgb(0, 0, 0)
+}
+
+.form .inputBox input::-ms-input-placeholder {
+    color: rgb(0, 0, 0)
+}
+
+.form .inputBox input::placeholder {
+    color: rgb(0, 0, 0)
+}
+
+.form .inputBox input[type=submit] {
+    margin-bottom: 20px;
+    max-width: 150px;
+    background: hsla(0, 0%, 100%, .2);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    cursor: pointer
+}
+
+.form .inputBox input[type=radio] {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid #ddd;
+    border-radius: .6rem;
+    background-color: #fff;
+    vertical-align: top;
+    font-size: .8rem;
+    cursor: default;
+    -webkit-appearance: none
+}
+
+.form .inputBox input[type=radio]:checked,
+.form .inputBox input[type=checkbox]:checked {
+    border: 1px solid #c4e1ff;
+    background-color: rgba(78, 173, 255, .52);
+    background-clip: padding-box;
+    box-shadow: 0 1px 2px rgba(62, 62, 62, .1);
+    text-align: center
+}
+
+.form .inputBox input[type=radio]:checked::before,
+.form .inputBox input[type=checkbox]:checked::before {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    margin-top: -.25rem;
+    margin-left: -.25rem;
+    width: .6rem;
+    height: .4rem;
+    border: 1px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    transform: rotate(-45deg)
+}
+
+.form .inputBox input[type=submit]:active {
+    margin-bottom: 20px;
+    background: #e6e6e6;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer
+}
+
+.form .inputBox input[type=reset] {
+    margin-bottom: 20px;
+    max-width: 150px;
+    background: hsla(0, 0%, 100%, .2);
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer
+}
+
+.form .inputBox input[type=reset]:active {
+    margin-bottom: 20px;
+    background: #e6e6e6;
+    color: snow;
+    font-weight: 600;
+    cursor: pointer
+}
+
+.form .inputBox input[type=reset]::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -.25rem;
+    margin-left: -.25rem;
+    width: .6rem;
+    height: .4rem;
+    border: 1px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    transform: rotate(-45deg)
+}
+
+.setBox {
+    margin-right: 40px;
+    font-size: 14px;
+    line-height: 15px
+}
+
+.form .radio {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid #ddd;
+    border-radius: .6rem;
+    background-color: #fff;
+    vertical-align: top;
+    font-size: .8rem;
+    cursor: default;
+    -webkit-appearance: none
+}
+
+.checkbox {
+    border-radius: .1rem
+}
+
+.form .radio:checked {
+    border: 1px solid #c4e1ff;
+    background-color: rgba(78, 173, 255, .52);
+    background-clip: padding-box;
+    box-shadow: 0 1px 2px rgba(62, 62, 62, .1);
+    text-align: center
+}
+
+.form .radio:checked:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -.25rem;
+    margin-left: -.25rem;
+    width: .6rem;
+    height: .4rem;
+    border: 1px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    transform: rotate(-45deg)
+}

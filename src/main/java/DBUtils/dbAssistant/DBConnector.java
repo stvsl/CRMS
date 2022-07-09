@@ -21,9 +21,9 @@ public class DBConnector {
     public DBConnector() {
         // configLoader();
         JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-        DB_URL = "jdbc:mysql://120.48.17.34:27621/CRMS?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+        DB_URL = "jdbc:mysql://127.0.0.1:3306/CRMS?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
         USER = "root";
-        PASS = "stvsl2060";
+        PASS = "yourpassword";
     }
 
     /***
